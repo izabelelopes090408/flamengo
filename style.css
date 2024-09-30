@@ -6,7 +6,7 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 .cabecalho {
-    background-color: #222222;
+    background-color: #f1e9e9;
     color: rgb(56, 52, 52);
     display: flex;
     justify-content: space-around;
@@ -76,7 +76,7 @@ body {
 .estudante-todos{
     display: grid;
     grid-template-columns: 20% 20% 20% 20% 20%;
-    background-color: rgba(156, 174, 177, 0.411);
+    background-color: rgba(230, 250, 253, 0.411);
 }
 
 .rodape{
