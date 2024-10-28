@@ -6,8 +6,8 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 .cabecalho {
-    background-color: #fffdfd;
-    color: rgb(56, 52, 52);
+    background-color: #4e4646;
+    color: hwb(0 37% 56%);
     display: flex;
     justify-content: space-around;
     align-items:center;
