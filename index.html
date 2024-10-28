@@ -120,14 +120,29 @@
 
          <span><</span>
          <span><</span>
-      <div class="container">
-        <div class="jogador">Jogador 1</div>
-        <div class="jogador">Jogador 2</div>
-        <div class="jogador">Jogador 3</div>
-        <div class="jogador">Jogador 4</div>
-    </div>
-</body>
-</html>
+         body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+        }
+        
+        .container {
+            display: flex;
+            gap: 20px; /* Espaço entre os jogadores */
+        }
+        
+        .jogador {
+            padding: 20px;
+            background-color: #007bff;
+            color: white;
+            border-radius: 5px;
+            text-align: center;
+            width: 100px; /* Largura dos cartões dos jogadores */
+        }
+        
 
 
 
